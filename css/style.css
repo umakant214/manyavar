@@ -1,0 +1,23 @@
+:root{
+    --mcolor:#511d00;
+    --pcolor:#f7e7d6;
+    --wcolor:#f1eee6;
+    --rcolor:#ea5f2f;
+}
+.topbg-color{
+    background-color: var(--mcolor);
+}
+.bg1-color{
+    background: var(--pcolor);
+}
+.bg2-color{
+    background: var(--wcolor);
+}
+.text-color{
+    color: var(--rcolor);
+}
+@media screen and (orientation: portrait){
+    .dis{
+        display: none;
+    }
+}
